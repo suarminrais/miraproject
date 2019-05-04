@@ -81,7 +81,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </li>
             <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt blue"></i>
+              <i class="nav-icon fas fa-sync-alt blue"></i>
                 <p>
                 Data Master
                 <i class="right fa fa-angle-left"></i>
@@ -90,31 +90,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <router-link to="/dokter" class="nav-link">
-                  <i class="fas fa-users nav-icon"></i>
+                  <i class="fas fa-user-md nav-icon"></i>
                   <p>Dokter</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/suplier" class="nav-link">
-                  <i class="fas fa-users nav-icon"></i>
+                  <i class="fas fa-star-of-life nav-icon"></i>
                   <p>Suplier</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/paramedis" class="nav-link">
-                  <i class="fas fa-users nav-icon"></i>
+                  <i class="fas fa-syringe nav-icon"></i>
                   <p>Paramedis</p>
                 </router-link>
               </li>
               <li class="nav-item">
                 <router-link to="/barang" class="nav-link">
-                  <i class="fas fa-users nav-icon"></i>
+                  <i class="fas fa-random nav-icon"></i>
                   <p>Jenis Barang</p>
                 </router-link>
               </li>  
               <li class="nav-item">
                 <router-link to="/poli" class="nav-link">
-                  <i class="fas fa-users nav-icon"></i>
+                  <i class="fas fa-stethoscope nav-icon"></i>
                   <p>Poli</p>
                 </router-link>
               </li>          
