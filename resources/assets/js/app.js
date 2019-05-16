@@ -77,6 +77,18 @@ let routes = [{
         component: require('./components/master/Poli.vue')
     },
     {
+        path: '/ruangkategori',
+        component: require('./components/ruang/Kategori.vue')
+    },
+    {
+        path: '/ruangkelas',
+        component: require('./components/ruang/Kelas.vue')
+    },
+    {
+        path: '/ruangtarif',
+        component: require('./components/ruang/Tarif.vue')
+    },
+    {
         path: '/profile',
         component: require('./components/Profile.vue')
     },

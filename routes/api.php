@@ -19,6 +19,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::apiResources(['user' => 'API\UserController']);
 Route::apiResources(['dokter' => 'API\DokterController']);
+Route::apiResources(['rkategori' => 'API\rkategori']);
+Route::apiResources(['rkelas' => 'API\rkelas']);
+Route::apiResources(['rtarif' => 'API\rtarif']);
 Route::apiResources(['paramedis' => 'API\ParamedisController']);
 Route::apiResources(['suplier' => 'API\SuplierController']);
 Route::apiResources(['barang' => 'API\BarangController']);

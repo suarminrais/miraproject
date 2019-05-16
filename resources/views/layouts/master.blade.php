@@ -83,6 +83,36 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-sync-alt blue"></i>
                 <p>
+                Data Ruangan
+                <i class="right fa fa-angle-left"></i>
+                </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <router-link to="/ruangkategori" class="nav-link">
+                  <i class="fas fa-user-md nav-icon"></i>
+                  <p>Kategori Ruangan</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/ruangkelas" class="nav-link">
+                  <i class="fas fa-star-of-life nav-icon"></i>
+                  <p>Kelas Ruangan</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/ruangtarif" class="nav-link">
+                  <i class="fas fa-syringe nav-icon"></i>
+                  <p>Ruangan Dan Tarif</p>
+                </router-link>
+              </li>         
+
+            </ul>
+          </li>
+            <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-sync-alt blue"></i>
+                <p>
                 Data Master
                 <i class="right fa fa-angle-left"></i>
                 </p>
